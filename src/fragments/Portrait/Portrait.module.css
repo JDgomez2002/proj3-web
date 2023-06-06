@@ -1,0 +1,142 @@
+.portrait {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* position: relative; */
+  height: fit-content;
+  /* width: 100%; */
+  max-width: 100%;
+  /* background-color: red; */
+  background-image: url('https://github.com/JDgomez2002/proj3-web/blob/main/src/assets/img/digitalocean-penguin-linux-wallpaper.jpg?raw=true');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-position: 0 0; */
+  padding: 0 0 50px;
+  background-color: #006caa;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 150px;
+  width: auto;
+  border-radius: 100%;
+}
+
+.header {
+  margin: 0 auto 0;
+  padding: 100px 22px 0;
+  width: fit-content;
+  height: fit-content;
+  /* position: relative; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* background-color: red; */
+}
+
+.header h1 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 70px;
+  font-weight: 900;
+  margin: 0 0 0 15px;
+  color: white;
+}
+
+.header h2 {
+  width: fit-content;
+  font-family: 'Geologica', sans-serif;
+  font-size: 45px;
+  font-weight: 100;
+  color: white;
+  margin: 20px auto 0;
+}
+
+.marginTop {
+  margin-top: 20px;
+}
+
+.marginBottom {
+  margin-bottom: 30px;
+}
+
+
+.header p {
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  color: #00000094;
+  color: rgba(255, 255, 255, 0.829);
+  font-size: large;
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 170px;
+}
+
+.header p h1 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: xx-large;
+  text-align: center;
+  color: #00000094;
+  color: rgba(255, 255, 255, 0.829);
+  font-size: normal;
+  margin: 0 0 20px;
+}
+
+.infoContainer {
+  margin: 170px auto 0;
+  padding: 0 22px;
+  width: 1264px;
+  height: fit-content;
+}
+
+.infoContainer h1 {
+  font-family: 'Mulish', sans-serif;
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.infoContainer h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.829);
+
+  font-weight: 300;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+.infoContainer p {
+  width: 390px;
+  font-family: 'Mulish', sans-serif;
+  color: rgba(255, 255, 255, 0.829);
+  font-size: x-large;
+  font-weight: normal;
+  margin: 20px 0 0 0;
+  height: 100px;
+}
+
+.infoContainer h1 {
+  margin-bottom: 60px;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: xxx-large;
+}
+
+.table {
+  display: flex;
+  width: 100%;
+  margin: 0 0 50px;
+}
+
+.table h1 {
+  width: 50%;
+}
+
+.img {
+  width: 20%;
+  height: auto;
+  border-radius: 0;
+  margin: 0 auto;
+}

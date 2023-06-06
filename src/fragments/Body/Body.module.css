@@ -1,0 +1,87 @@
+.background {
+  width: 100%;
+  height: fit-content;
+  background-color: #04132e;
+  padding: 0 0 50px 0;
+}
+
+.container {
+  margin: 0 auto 0;
+  padding: 96px 22px 0;
+  width: 1276px;
+  height: fit-content;
+}
+
+.flex {
+  display: flex;
+}
+
+.infoContainer {
+  width: 100%;
+  height: fit-content;
+}
+
+.textColumn {
+  width: 33%;
+}
+
+.textColumn h1 {
+  color: white;
+  font-family: 'Geologica', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0 0 30px 0;
+}
+
+.textColumn a {
+  color: white;
+  font-family: 'Geologica', sans-serif;
+  font-size: normal;
+  font-weight: normal;
+  margin: 0 0 30px 0;
+}
+
+.textColumn p {
+  color: rgb(212, 212, 212);
+  font-family: 'Geologica', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 0 0 30px 0;
+}
+
+.textColumn a {
+  margin: 0 0 20px;
+}
+
+.imageContainer {
+  margin: 25px 30px;
+  display: flex;
+  place-items: center;
+  margin: 20px 150px;
+}
+
+.image {
+  width: 400px;
+  width: 600px;
+  /* margin: 20px auto; */
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+}
+
+.smallImage {
+  height: 200px;
+  width: auto;
+}
+
+.marginBottom {
+  margin-bottom: 60px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin: 0 20px;
+}

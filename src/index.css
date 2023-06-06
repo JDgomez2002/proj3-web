@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  width: 100vw;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

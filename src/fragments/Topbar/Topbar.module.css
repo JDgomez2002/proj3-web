@@ -1,0 +1,111 @@
+.geologica {
+  font-family: 'Geologica', sans-serif;
+}
+
+.container {
+  background-color: #04132e;
+  color: rgba(255, 255, 255, 0.952);
+  justify-content: center;
+  width: 100%;
+  max-width: 100vw;
+  height: 72px;
+  padding: 15px 0;
+}
+
+.container div {
+  text-align: center;
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+}
+
+.itemsContainer {
+  display: flex;
+  /* background-color: skyblue; */
+  width: 1276px;
+  margin: 0 auto;
+  padding: 0 22px;
+  height: 100%;
+}
+
+.itemsContainer a {
+  text-decoration: none;
+  color: #aaaaaa;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: fit-content;
+  margin: 0 10px;
+  font-size: larger;
+}
+
+.itemsContainer a:hover {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  width: fit-content;
+  margin: 0 0 0 auto;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: fit-content;
+}
+
+.subContainer {
+  /* background-color: skyblue; */
+  color: #939496;
+  justify-content: center;
+  width: 100%;
+  max-width: 100vw;
+  height: 72px;
+  border-width: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+
+}
+
+.subContainer span{
+  /* color: #27282C; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* font-family: 'Mulish', sans-serif */
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: #27282cb2;
+  /* background-color: red; */
+}
+
+.subContainer span:hover {
+  color: #087CFA;
+  cursor: pointer;
+}
+
+.subContainer h3{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  color: #27282C;
+  font-family: 'Mulish', sans-serif
+}
+
+.tags {
+  font-weight: 300;
+  font-size: medium;
+  margin: 0 10px;
+  color: #27282ce3;
+}
+
+.grid {
+  display: grid;
+}
