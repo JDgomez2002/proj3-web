@@ -1,3 +1,6 @@
+import GitHubIcon from '@mui/icons-material/GitHub'
+import InterpreterModeIcon from '@mui/icons-material/InterpreterMode'
+import EmailIcon from '@mui/icons-material/Email'
 import * as styles from './Footer.module.css'
 
 function Footer() {
@@ -9,12 +12,18 @@ function Footer() {
           style={{ justifyContent: 'center', }}
         >
           {/* First Column */}
-          <div className={`${styles.textColumn} ${styles.grid}`}>
-            <h1>Workspace</h1>
+          <div
+            className={`${styles.textColumn} ${styles.grid}`}
+            id="footer"
+          >
+            <div className={styles.flex}>
+              <GitHubIcon style={{ color: 'white', }} />
+              <h1>Github</h1>
+            </div>
             <a
               href="https://github.com/JDgomez2002"
             >
-              Github.com
+              JDgomez2002
             </a>
           </div>
           {/* Second */}
@@ -28,7 +37,10 @@ function Footer() {
           </div> */}
           {/* Third */}
           <div className={`${styles.textColumn} ${styles.grid}`}>
-            <h1>Discord</h1>
+            <div className={styles.flex}>
+              <InterpreterModeIcon style={{ color: 'white', }} />
+              <h1>Discord</h1>
+            </div>
             <a
               href="none"
             >
@@ -37,7 +49,10 @@ function Footer() {
           </div>
           {/* sixth */}
           <div className={`${styles.textColumn} ${styles.grid}`}>
-            <h1>Email</h1>
+            <div className={styles.flex}>
+              <EmailIcon style={{ color: 'white', }} />
+              <h1>Email</h1>
+            </div>
             <a
               href="none"
             >

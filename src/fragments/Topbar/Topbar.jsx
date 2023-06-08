@@ -14,12 +14,11 @@ function Topbar() {
           src="https://github.com/JDgomez2002/proj3-web/blob/main/src/assets/img/SnarkyPuppy.png?raw=true"
         />
         <div className={`${styles.flex} ${styles.geologica}`}>
-          <a href="none"> About me </a>
-          <a href="none"> Knowledge </a>
-          <a href="none"> My projects </a>
-          {/* <a href="none"> Web technologies </a> */}
-          <a href="none"> Workspace </a>
-          <a href="none"> Contact </a>
+          <a href="#about_me"> About me </a>
+          <a href="#knowledge_id"> Knowledge </a>
+          <a href="#my_projects"> My projects </a>
+          <a href="#footer"> Workspace </a>
+          <a href="#footer"> Contact </a>
           <div className={styles.iconsContainer}>
             <TerminalIcon style={{ fontSize: '20px', margin: '0 10px', }} sx={{ '&:hover': { color: 'white', cursor: 'pointer', borderBottom: '1px solid white', }, }} />
             <GitHubIcon style={{ fontSize: '20px', margin: '0 10px', }} sx={{ '&:hover': { color: 'white', borderBottom: '1px solid white', }, cursor: 'pointer', }} />

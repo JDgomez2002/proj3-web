@@ -7,9 +7,9 @@
   /* width: 100%; */
   max-width: 100%;
   /* background-color: red; */
-  background-image: url('https://github.com/JDgomez2002/proj3-web/blob/main/src/assets/img/digitalocean-penguin-linux-wallpaper.jpg?raw=true');
+  /* background-image: url('https://github.com/JDgomez2002/proj3-web/blob/main/src/assets/img/digitalocean-penguin-linux-wallpaper.jpg?raw=true');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%; */
   /* background-position: 0 0; */
   padding: 0 0 50px;
   background-color: #006caa;
@@ -29,9 +29,12 @@
 
 .header {
   margin: 0 auto 0;
-  padding: 100px 22px 0;
+  padding: 100px 22px 50px;
   width: fit-content;
   height: fit-content;
+  background-image: url('https://github.com/JDgomez2002/proj3-web/blob/main/src/assets/img/digitalocean-penguin-linux-wallpaper.jpg?raw=true');
+  background-repeat: no-repeat;
+  background-size: 100%;
   /* position: relative; */
   /* display: flex; */
   /* align-items: center; */
@@ -63,6 +66,15 @@
   margin-bottom: 30px;
 }
 
+.aboutMeContainer {
+  padding-top: 200px;
+}
+
+.aboutMeContainer div {
+  /* background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 20px; */
+  padding-top: 200px;
+}
 
 .header p {
   font-family: 'Nunito Sans', sans-serif;
@@ -73,7 +85,8 @@
   background-color: rgba(0, 0, 0, 0.342);
   border-radius: 20px;
   padding: 30px;
-  margin-top: 170px;
+  /* padding-top: 200px; */
+  /* margin-bottom: 150px; */
 }
 
 .header p h1 {
@@ -87,8 +100,8 @@
 }
 
 .infoContainer {
-  margin: 170px auto 0;
-  padding: 0 22px;
+  margin: 0 auto 0;
+  padding: 100px 22px;
   width: 1264px;
   height: fit-content;
 }
@@ -96,6 +109,7 @@
 .infoContainer h1 {
   font-family: 'Mulish', sans-serif;
   color: rgba(255, 255, 255, 0.829);
+  font-size: 500px;
 }
 
 .infoContainer h2 {

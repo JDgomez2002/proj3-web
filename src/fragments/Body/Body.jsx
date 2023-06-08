@@ -2,11 +2,19 @@ import * as styles from './Body.module.css'
 
 function Body() {
   return (
-    <div className={styles.background}>
+    <div
+      className={styles.background}
+      id="my_projects"
+    >
       <div className={styles.container}>
         {/* First group */}
         <div className={`${styles.flex} ${styles.marginBottom}`}>
           <span className={styles.textColumn}>
+            <div
+              id={styles.projects}
+            >
+              My Projects
+            </div>
             <h1>Hospitals application</h1>
             <a
               href="https://jdgomez2002.github.io/Proj2_DBI/"
