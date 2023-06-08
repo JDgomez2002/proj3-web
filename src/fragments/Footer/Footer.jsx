@@ -42,7 +42,7 @@ function Footer() {
               <h1>Discord</h1>
             </div>
             <a
-              href="none"
+              href="https://discord.com"
             >
               JDgomeZz#5573
             </a>
@@ -54,7 +54,7 @@ function Footer() {
               <h1>Email</h1>
             </div>
             <a
-              href="none"
+              href="https://mail.google.com/mail"
             >
               jdgomez@dsoluciones.com
             </a>

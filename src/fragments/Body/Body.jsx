@@ -27,11 +27,13 @@ function Body() {
               store data like hospitals, patients, doctors, etc.
               It have all the functions with the Administrator account.
               And the better, it has Dark Mode! Press the Top Right button to toggle Dark Mode.
+              It use React, Vitest, Material UI icons, React-pro-sidebar, React-router-dom
+              and Supabase.
             </p>
             <p>
-              Administrator: Hector1
+              Administrator: Admin
               <br />
-              Password: 123
+              Password: admin123
             </p>
             <div className={styles.flex}>
               <img

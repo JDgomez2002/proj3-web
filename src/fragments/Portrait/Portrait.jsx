@@ -21,12 +21,14 @@ function Portrait() {
             <h1>
               About me
             </h1>
-            I&apos;m a Web dewveloper that loves team work and solve difficult problems
-            I&apos;m a third year computer science student, my favorite course
-            was the Web Technology course
-            I&apos;m interested on apply for a full stack job! I like the Front-end
-            and Back-end, the best of both worlds!
-            I play basketball in univertsity too, and like to play videogames in my free-time!
+            <p>
+              I&apos;m a Web developer that loves team work and solve difficult problems
+              I&apos;m a third year computer science student, my favorite course
+              was the Web Technology course
+              I&apos;m interested on apply for a full stack job! I like the Front-end
+              and Back-end, the best of both worlds!
+              I play basketball in univertsity too, and like to play videogames in my free-time!
+            </p>
           </p>
         </div>
       </div>
@@ -43,6 +45,7 @@ function Portrait() {
         <div className={`${styles.table}`}>
           <img
             className={styles.img}
+            style={{ height: '100px', margin: 'auto', }}
             alt="react"
             src="https://github.com/JDgomez2002/proj3-web/blob/main/src/assets/img/React_logo_wordmark.png?raw=true"
           />
@@ -80,6 +83,7 @@ function Portrait() {
           <img
             className={styles.img}
             alt="github"
+            style={{ height: '150px', margin: 'auto', }}
             src="https://github.com/JDgomez2002/proj3-web/blob/main/src/assets/img/github%20portrait.png?raw=true"
           />
           <img
